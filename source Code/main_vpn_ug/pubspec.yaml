@@ -1,0 +1,60 @@
+name: mightyvpn
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+     sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+     flutter:
+          sdk: flutter
+
+     cupertino_icons: ^1.0.4
+     nb_utils: ^4.4.14
+     flutter_vector_icons: ^1.0.0
+     image_picker: ^0.8.4+11
+     cached_network_image: ^3.2.0
+     http: ^0.13.4
+     package_info: ^2.0.2
+     url_launcher: ^6.0.20
+     share_plus: ^4.0.2
+     google_fonts: ^2.3.1
+     get_ip_address: ^0.0.5
+     internet_speed_test: ^1.5.0
+     syncfusion_flutter_gauges: ^19.4.56
+     percent_indicator: ^4.0.0
+     device_info_plus: ^3.2.2
+     google_mobile_ads: ^1.1.0
+
+     # Firebase
+     firebase_core: ^1.13.1
+     firebase_analytics: ^9.1.2
+     firebase_crashlytics: ^2.5.3
+     cloud_firestore: ^3.1.10
+
+     flutter_localizations:
+          sdk: flutter
+
+     mobx: ^2.0.6+1
+     flutter_mobx: ^2.0.4
+
+dev_dependencies:
+     flutter_test:
+          sdk: flutter
+     build_runner: ^2.1.8
+     mobx_codegen: ^2.0.5+2
+     #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+     flutter_lints: ^1.0.4
+
+flutter:
+     uses-material-design: true
+
+     assets:
+          - assets/images/
+          - assets/opvn/
+          - assets/flag/
+          - assets/extension_ug/

@@ -1,0 +1,6 @@
+com/mighty/vpn/BuildConfig.java
+ com.mighty.vpn.BuildConfig
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/mighty/vpn/DataBindingTriggerClass.java
+ com.mighty.vpn.DataBindingTriggerClass

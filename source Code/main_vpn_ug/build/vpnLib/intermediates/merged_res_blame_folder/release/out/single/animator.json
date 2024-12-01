@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\vpnLib\\intermediates\\merged_res\\release\\animator\\fragment_close_enter.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\501ab4c875374ade9712f7f9c4544f93\\transformed\\fragment-1.3.6\\res\\animator\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\vpnLib\\intermediates\\merged_res\\release\\animator\\fragment_close_exit.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\501ab4c875374ade9712f7f9c4544f93\\transformed\\fragment-1.3.6\\res\\animator\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\vpnLib\\intermediates\\merged_res\\release\\animator\\fragment_open_enter.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\501ab4c875374ade9712f7f9c4544f93\\transformed\\fragment-1.3.6\\res\\animator\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\vpnLib\\intermediates\\merged_res\\release\\animator\\fragment_fade_exit.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\501ab4c875374ade9712f7f9c4544f93\\transformed\\fragment-1.3.6\\res\\animator\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\vpnLib\\intermediates\\merged_res\\release\\animator\\fragment_open_exit.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\501ab4c875374ade9712f7f9c4544f93\\transformed\\fragment-1.3.6\\res\\animator\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\vpnLib\\intermediates\\merged_res\\release\\animator\\fragment_fade_enter.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\501ab4c875374ade9712f7f9c4544f93\\transformed\\fragment-1.3.6\\res\\animator\\fragment_fade_enter.xml"
+    }
+]

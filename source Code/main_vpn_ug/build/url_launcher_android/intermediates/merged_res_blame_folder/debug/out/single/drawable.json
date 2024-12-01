@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\url_launcher_android\\intermediates\\merged_res\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\url_launcher_android\\intermediates\\merged_res\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\url_launcher_android\\intermediates\\merged_res\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\url_launcher_android\\intermediates\\merged_res\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

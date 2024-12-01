@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\3c3ac7de816c1ddbaae1184fa00966a1\\transformed\\work-runtime-2.7.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\debug\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\3c3ac7de816c1ddbaae1184fa00966a1\\transformed\\work-runtime-2.7.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

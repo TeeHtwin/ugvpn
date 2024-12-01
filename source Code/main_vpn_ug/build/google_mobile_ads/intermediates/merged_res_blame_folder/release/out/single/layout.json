@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\browser_actions_context_menu_row.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\fc29e1e2dee1252539caccae19ab0f6d\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\google_mobile_ads\\intermediates\\merged_res\\release\\layout\\browser_actions_context_menu_page.xml",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\fc29e1e2dee1252539caccae19ab0f6d\\transformed\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_page.xml"
+    }
+]

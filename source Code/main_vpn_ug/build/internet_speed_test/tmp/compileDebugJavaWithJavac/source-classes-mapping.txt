@@ -1,0 +1,2 @@
+com/tahamalas/internet_speed_test/BuildConfig.java
+ com.tahamalas.internet_speed_test.BuildConfig

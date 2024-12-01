@@ -1,0 +1,621 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fund4revo.ugvpn"
+4    android:versionCode="15"
+5    android:versionName="1.3.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:6:5-75
+12-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:10:22-63
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:firebase_analytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-68
+17-->[:firebase_analytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+19-->[com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\e5bd593c359803b845c8b821ddcaff03\transformed\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+19-->[com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\e5bd593c359803b845c8b821ddcaff03\transformed\jetified-play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:22-76
+20    <queries>
+20-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:28:5-44:15
+21
+22        <!-- For browser content -->
+23        <intent>
+23-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:31:9-37:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:32:13-65
+24-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:32:21-62
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:34:13-74
+26-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:34:23-71
+27
+28            <data android:scheme="https" />
+28-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:36:13-44
+28-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:36:19-41
+29        </intent>
+30        <!-- End of browser content -->
+31        <!-- For CustomTabsService -->
+32        <intent>
+32-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:40:9-42:18
+33            <action android:name="android.support.customtabs.action.CustomTabsService" />
+33-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:41:13-90
+33-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:41:21-87
+34        </intent>
+35        <!-- End of CustomTabsService -->
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+38-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+38-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
+39
+40    <application
+40-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:12:5-55:19
+41        android:allowBackup="true"
+41-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:13:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.8.0] C:\Users\saili\.gradle\caches\transforms-3\23a81e61c80dfeb4a0acc394f0aa0596\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+43        android:extractNativeLibs="true"
+43-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:14:9-41
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:15:9-43
+45        android:label="UG VPN"
+45-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:16:9-31
+46        android:supportsRtl="true" >
+46-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:17:9-35
+47        <activity
+47-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:20:9-35:20
+48            android:name="com.mighty.vpn.MainActivity"
+48-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:21:13-41
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:22:13-163
+50            android:exported="true"
+50-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:23:13-36
+51            android:hardwareAccelerated="true"
+51-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:24:13-47
+52            android:launchMode="singleTop"
+52-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:25:13-43
+53            android:theme="@style/LaunchTheme"
+53-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:26:13-47
+54            android:windowSoftInputMode="adjustResize" >
+54-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:27:13-55
+55            <meta-data
+55-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:28:13-30:57
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:29:17-72
+57                android:resource="@style/NormalTheme" />
+57-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:30:17-54
+58
+59            <intent-filter>
+59-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:31:13-34:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:32:17-69
+60-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:32:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:33:17-77
+62-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:33:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:36:9-209
+66            android:name="de.blinkt.openvpn.DisconnectVPNActivity"
+66-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:36:19-73
+67            android:excludeFromRecents="true"
+67-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:36:74-107
+68            android:noHistory="true"
+68-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:36:108-132
+69            android:taskAffinity=".DisconnectVPN"
+69-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:36:133-170
+70            android:theme="@style/blinkt.dialog" />
+70-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:36:171-207
+71
+72        <service
+72-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:38:9-45:19
+73            android:name="de.blinkt.openvpn.core.OpenVPNService"
+73-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:39:13-65
+74            android:exported="false"
+74-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:41:13-37
+75            android:permission="android.permission.BIND_VPN_SERVICE" >
+75-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:40:13-69
+76            <intent-filter>
+76-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:42:13-44:29
+77                <action android:name="android.net.VpnService" />
+77-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:43:17-65
+77-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:43:25-62
+78            </intent-filter>
+79        </service>
+80
+81        <meta-data
+81-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:47:9-49:33
+82            android:name="flutterEmbedding"
+82-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:48:13-44
+83            android:value="2" />
+83-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:49:13-30
+84        <meta-data
+84-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:51:9-53:70
+85            android:name="com.google.android.gms.ads.APPLICATION_ID"
+85-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:52:13-69
+86            android:value="ca-app-pub-1399327544318575~7586962359" />
+86-->C:\Users\saili\Desktop\main_vpn_ug\android\app\src\main\AndroidManifest.xml:53:13-67
+87
+88        <service
+88-->[:firebase_crashlytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-12:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[:firebase_crashlytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:8:18-89
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\saili\.gradle\caches\transforms-3\301313bbac7f1f4d5f47d808d2f285c6\transformed\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:19:13-37
+92            <meta-data
+92-->[:firebase_crashlytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+93-->[:firebase_crashlytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-130
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:firebase_crashlytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+95            <meta-data
+95-->[:cloud_firestore] C:\Users\saili\Desktop\main_vpn_ug\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+96-->[:cloud_firestore] C:\Users\saili\Desktop\main_vpn_ug\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-134
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:cloud_firestore] C:\Users\saili\Desktop\main_vpn_ug\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+98            <meta-data
+98-->[:firebase_analytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+99-->[:firebase_analytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-128
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_analytics] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-82
+101            <meta-data
+101-->[:firebase_core] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+102-->[:firebase_core] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_core] C:\Users\saili\Desktop\main_vpn_ug\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\saili\.gradle\caches\transforms-3\301313bbac7f1f4d5f47d808d2f285c6\transformed\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:20:13-22:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+105-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\saili\.gradle\caches\transforms-3\301313bbac7f1f4d5f47d808d2f285c6\transformed\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:21:17-111
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\saili\.gradle\caches\transforms-3\301313bbac7f1f4d5f47d808d2f285c6\transformed\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:22:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\saili\.gradle\caches\transforms-3\3711942cb6dd83eb499b87a9747524bf\transformed\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:18:13-20:85
+108                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+108-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\saili\.gradle\caches\transforms-3\3711942cb6dd83eb499b87a9747524bf\transformed\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:19:17-115
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\saili\.gradle\caches\transforms-3\3711942cb6dd83eb499b87a9747524bf\transformed\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:20:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\baf7f15e8b62529703f6c0a9eba740d6\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\baf7f15e8b62529703f6c0a9eba740d6\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\baf7f15e8b62529703f6c0a9eba740d6\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\saili\.gradle\caches\transforms-3\b74c51aa36bfcab94f2835dda4eb8887\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\saili\.gradle\caches\transforms-3\b74c51aa36bfcab94f2835dda4eb8887\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\saili\.gradle\caches\transforms-3\b74c51aa36bfcab94f2835dda4eb8887\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+116        </service>
+117
+118        <provider
+118-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+119            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+119-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-82
+120            android:authorities="com.fund4revo.ugvpn.flutter.image_provider"
+120-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-74
+121            android:exported="false"
+121-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+122            android:grantUriPermissions="true" >
+122-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+123            <meta-data
+123-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:75
+124                android:name="android.support.FILE_PROVIDER_PATHS"
+124-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+125                android:resource="@xml/flutter_image_picker_file_paths" />
+125-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-72
+126        </provider>
+127
+128        <activity
+128-->[:url_launcher_android] C:\Users\saili\Desktop\main_vpn_ug\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+129            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+129-->[:url_launcher_android] C:\Users\saili\Desktop\main_vpn_ug\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+130            android:exported="false"
+130-->[:url_launcher_android] C:\Users\saili\Desktop\main_vpn_ug\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+131            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+131-->[:url_launcher_android] C:\Users\saili\Desktop\main_vpn_ug\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+132
+133        <meta-data
+133-->[:google_mobile_ads] C:\Users\saili\Desktop\main_vpn_ug\build\google_mobile_ads\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:36
+134            android:name="io.flutter.embedded_views_preview"
+134-->[:google_mobile_ads] C:\Users\saili\Desktop\main_vpn_ug\build\google_mobile_ads\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-61
+135            android:value="true" />
+135-->[:google_mobile_ads] C:\Users\saili\Desktop\main_vpn_ug\build\google_mobile_ads\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-33
+136
+137        <provider
+137-->[:share_plus] C:\Users\saili\Desktop\main_vpn_ug\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+138            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+138-->[:share_plus] C:\Users\saili\Desktop\main_vpn_ug\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-77
+139            android:authorities="com.fund4revo.ugvpn.flutter.share_provider"
+139-->[:share_plus] C:\Users\saili\Desktop\main_vpn_ug\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-74
+140            android:exported="false"
+140-->[:share_plus] C:\Users\saili\Desktop\main_vpn_ug\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+141            android:grantUriPermissions="true" >
+141-->[:share_plus] C:\Users\saili\Desktop\main_vpn_ug\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+142            <meta-data
+142-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:75
+143                android:name="android.support.FILE_PROVIDER_PATHS"
+143-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+144                android:resource="@xml/flutter_share_file_paths" />
+144-->[:image_picker_android] C:\Users\saili\Desktop\main_vpn_ug\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-72
+145        </provider>
+146
+147        <receiver
+147-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+148            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+148-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+150            android:exported="false" >
+150-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+151        </receiver>
+152
+153        <service
+153-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+154            android:name="com.google.android.gms.measurement.AppMeasurementService"
+154-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+155            android:enabled="true"
+155-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+156            android:exported="false" />
+156-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+157        <service
+157-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+158            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+158-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+159            android:enabled="true"
+159-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+161            android:permission="android.permission.BIND_JOB_SERVICE" />
+161-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\saili\.gradle\caches\transforms-3\ea3c3cea696b4f18ade8858b1fee3520\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+162
+163        <uses-library
+163-->[androidx.window:window:1.0.0-beta04] C:\Users\saili\.gradle\caches\transforms-3\40b59fd13b4c31bdcfc9e74b97368ba2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+164            android:name="androidx.window.extensions"
+164-->[androidx.window:window:1.0.0-beta04] C:\Users\saili\.gradle\caches\transforms-3\40b59fd13b4c31bdcfc9e74b97368ba2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+165            android:required="false" />
+165-->[androidx.window:window:1.0.0-beta04] C:\Users\saili\.gradle\caches\transforms-3\40b59fd13b4c31bdcfc9e74b97368ba2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+166        <uses-library
+166-->[androidx.window:window:1.0.0-beta04] C:\Users\saili\.gradle\caches\transforms-3\40b59fd13b4c31bdcfc9e74b97368ba2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+167            android:name="androidx.window.sidecar"
+167-->[androidx.window:window:1.0.0-beta04] C:\Users\saili\.gradle\caches\transforms-3\40b59fd13b4c31bdcfc9e74b97368ba2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+168            android:required="false" />
+168-->[androidx.window:window:1.0.0-beta04] C:\Users\saili\.gradle\caches\transforms-3\40b59fd13b4c31bdcfc9e74b97368ba2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+169
+170        <provider
+170-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+171            android:name="com.google.firebase.provider.FirebaseInitProvider"
+171-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+172            android:authorities="com.fund4revo.ugvpn.firebaseinitprovider"
+172-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+173            android:directBootAware="true"
+173-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+174            android:exported="false"
+174-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+175            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+175-->[com.google.firebase:firebase-common:20.1.1] C:\Users\saili\.gradle\caches\transforms-3\cd798476bd5dc3ade8e7eafdf4676936\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+176        <activity
+176-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:49:9-53:64
+177            android:name="com.google.android.gms.ads.AdActivity"
+177-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:50:13-65
+178            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+178-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:51:13-122
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:52:13-37
+180            android:theme="@android:style/Theme.Translucent" />
+180-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:53:13-61
+181
+182        <provider
+182-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:55:9-59:39
+183            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+183-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:56:13-76
+184            android:authorities="com.fund4revo.ugvpn.mobileadsinitprovider"
+184-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:57:13-73
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:58:13-37
+186            android:initOrder="100" />
+186-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:59:13-36
+187
+188        <service
+188-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:61:9-64:40
+189            android:name="com.google.android.gms.ads.AdService"
+189-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:62:13-64
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:63:13-35
+191            android:exported="false" />
+191-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\saili\.gradle\caches\transforms-3\ba8d9f873488a029346cfe10a6307d2e\transformed\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:64:13-37
+192
+193        <activity
+193-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saili\.gradle\caches\transforms-3\38e6840380e14629f3dfc7d3b9459de6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+194            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+194-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saili\.gradle\caches\transforms-3\38e6840380e14629f3dfc7d3b9459de6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saili\.gradle\caches\transforms-3\38e6840380e14629f3dfc7d3b9459de6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\saili\.gradle\caches\transforms-3\38e6840380e14629f3dfc7d3b9459de6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+197
+198        <meta-data
+198-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\saili\.gradle\caches\transforms-3\fcd3baaf8b66774f0c4690ba2a494fb0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+199            android:name="com.google.android.gms.version"
+199-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\saili\.gradle\caches\transforms-3\fcd3baaf8b66774f0c4690ba2a494fb0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+200            android:value="@integer/google_play_services_version" />
+200-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\saili\.gradle\caches\transforms-3\fcd3baaf8b66774f0c4690ba2a494fb0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+201
+202        <provider
+202-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+203            android:name="androidx.startup.InitializationProvider"
+203-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+204            android:authorities="com.fund4revo.ugvpn.androidx-startup"
+204-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+205            android:exported="false" >
+205-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+206            <meta-data
+206-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+207                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+207-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+208                android:value="androidx.startup" />
+208-->[androidx.emoji2:emoji2:1.0.0] C:\Users\saili\.gradle\caches\transforms-3\29b7f28473a11acea18076d3a9ce7efb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+209            <meta-data
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+210                android:name="androidx.work.WorkManagerInitializer"
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+211                android:value="androidx.startup" />
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+212            <meta-data
+212-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\saili\.gradle\caches\transforms-3\c660c20b46f11b26cd2f7a17db8253c6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+213                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+213-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\saili\.gradle\caches\transforms-3\c660c20b46f11b26cd2f7a17db8253c6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+214                android:value="androidx.startup" />
+214-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\saili\.gradle\caches\transforms-3\c660c20b46f11b26cd2f7a17db8253c6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+215        </provider>
+216
+217        <service
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+218            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+219            android:directBootAware="false"
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+220            android:enabled="@bool/enable_system_alarm_service_default"
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+221            android:exported="false" />
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+222        <service
+222-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+223            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+224            android:directBootAware="false"
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+225            android:enabled="@bool/enable_system_job_service_default"
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+226            android:exported="true"
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+227            android:permission="android.permission.BIND_JOB_SERVICE" />
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+228        <service
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+229            android:name="androidx.work.impl.foreground.SystemForegroundService"
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+231            android:enabled="@bool/enable_system_foreground_service_default"
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+232            android:exported="false" />
+232-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+233
+234        <receiver
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+235            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+237            android:enabled="true"
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+238            android:exported="false" />
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+239        <receiver
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+240            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+241            android:directBootAware="false"
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+242            android:enabled="false"
+242-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+243            android:exported="false" >
+243-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+244            <intent-filter>
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+245                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+246                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+247            </intent-filter>
+248        </receiver>
+249        <receiver
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+250            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+252            android:enabled="false"
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+253            android:exported="false" >
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+254            <intent-filter>
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+255                <action android:name="android.intent.action.BATTERY_OKAY" />
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+256                <action android:name="android.intent.action.BATTERY_LOW" />
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+257            </intent-filter>
+258        </receiver>
+259        <receiver
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+260            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+262            android:enabled="false"
+262-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+264            <intent-filter>
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+265                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+266                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+267            </intent-filter>
+268        </receiver>
+269        <receiver
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+270            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+272            android:enabled="false"
+272-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+273            android:exported="false" >
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+274            <intent-filter>
+274-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+275                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+276            </intent-filter>
+277        </receiver>
+278        <receiver
+278-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+279            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+279-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+280            android:directBootAware="false"
+280-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+281            android:enabled="false"
+281-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+282            android:exported="false" >
+282-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+283            <intent-filter>
+283-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+284                <action android:name="android.intent.action.BOOT_COMPLETED" />
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+285                <action android:name="android.intent.action.TIME_SET" />
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+286                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+286-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+286-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+287            </intent-filter>
+288        </receiver>
+289        <receiver
+289-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+290            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+290-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+291            android:directBootAware="false"
+291-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+292            android:enabled="@bool/enable_system_alarm_service_default"
+292-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+293            android:exported="false" >
+293-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+294            <intent-filter>
+294-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+295                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+295-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+295-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+296            </intent-filter>
+297        </receiver>
+298        <receiver
+298-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+299            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+299-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+300            android:directBootAware="false"
+300-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+301            android:enabled="true"
+301-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+302            android:exported="true"
+302-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+303            android:permission="android.permission.DUMP" >
+303-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+304            <intent-filter>
+304-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+305                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\saili\.gradle\caches\transforms-3\3c3ac7de816c1ddbaae1184fa00966a1\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+306            </intent-filter>
+307        </receiver>
+308
+309        <service
+309-->[androidx.room:room-runtime:2.2.5] C:\Users\saili\.gradle\caches\transforms-3\c244322b63f0cc16c6c581e38b265ed1\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+310            android:name="androidx.room.MultiInstanceInvalidationService"
+310-->[androidx.room:room-runtime:2.2.5] C:\Users\saili\.gradle\caches\transforms-3\c244322b63f0cc16c6c581e38b265ed1\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+311            android:directBootAware="true"
+311-->[androidx.room:room-runtime:2.2.5] C:\Users\saili\.gradle\caches\transforms-3\c244322b63f0cc16c6c581e38b265ed1\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+312            android:exported="false" />
+312-->[androidx.room:room-runtime:2.2.5] C:\Users\saili\.gradle\caches\transforms-3\c244322b63f0cc16c6c581e38b265ed1\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+313        <service
+313-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\5f30bdc9e1d592cad7257f8d9c9c7f07\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+314            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+314-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\5f30bdc9e1d592cad7257f8d9c9c7f07\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+315            android:exported="false" >
+315-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\5f30bdc9e1d592cad7257f8d9c9c7f07\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+316            <meta-data
+316-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\5f30bdc9e1d592cad7257f8d9c9c7f07\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+317                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+317-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\5f30bdc9e1d592cad7257f8d9c9c7f07\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+318                android:value="cct" />
+318-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\5f30bdc9e1d592cad7257f8d9c9c7f07\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+319        </service>
+320        <service
+320-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+321            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+321-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+322            android:exported="false"
+322-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+323            android:permission="android.permission.BIND_JOB_SERVICE" >
+323-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+324        </service>
+325
+326        <receiver
+326-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+327            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+327-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+328            android:exported="false" />
+328-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\saili\.gradle\caches\transforms-3\8562053508d3b311e74a2b7652fbed7c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+329    </application>
+330
+331</manifest> <!--  -->

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\package_info\\intermediates\\merged_res\\release\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\package_info\\intermediates\\merged_res\\release\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\package_info\\intermediates\\merged_res\\release\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\package_info\\intermediates\\merged_res\\release\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\saili\\Desktop\\main_vpn_ug\\build\\package_info\\intermediates\\merged_res\\release\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\saili\\.gradle\\caches\\transforms-3\\bb591c6f02547c0d7f4905d883b7f8d6\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]
